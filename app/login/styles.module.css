@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: green;
+}   
+
+.container2{
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;    
+}
+
+.container2 input{
+    width: 50%;
+    margin: 10px;
+}
+
+.container2 button{
+    border: blue 1px solid;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.container2 span{
+    color: blue;
+}
